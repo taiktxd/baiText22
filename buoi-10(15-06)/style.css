@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  border: 1px solid chocolate;
+  border-radius: 15px;
+  margin: 30px;
+  text-align: center;
+  width: 350px;
+}
+
+.header {
+  color: white;
+  background-color: black;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.o-tien {
+  margin: 20px auto;
+}
+
+.chon-tip {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 30px;
+}
+
+.nhap-nguoi {
+  margin: 15px 0;
+}
+
+.tinh-nao {
+  padding: 15px;
+  background-color: brown;
+  border-radius: 5px;
+  margin: 15px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="box">
+      <h1 class="header">Tinh tiền Tip</h1>
+      <div class="o-tien">
+        <span>$</span>
+        <input type="number" id="soTien" />
+      </div>
+      <span class="ban-muon">Bạn muốn tip bao nhiêu?</span>
+      <select class="chon-tip" id="chonTip">
+        <option value="" disabled selected>Chọn tiền để Tip</option>
+        <option value="30">30% Tuyệt</option>
+        <option value="20">20% Tốt</option>
+        <option value="15">15% Tạm ổn</option>
+        <option value="10">10% Tồi</option>
+        <option value="5">5% Thật tệ</option>
+      </select>
+      <span>Muốn Share bao nhiêu người?</span>
+      <div class="nhap-nguoi">
+        <input type="number" name="" id="soNguoi" /><span>người</span>
+      </div>
+      <button class="tinh-nao" id="tinh">Tính Nào!</button>
+      <h1 id="ketQua"></h1>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

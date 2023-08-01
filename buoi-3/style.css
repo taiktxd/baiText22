@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.may-tinh {
+  text-align: center;
+  padding: 50px;
+  border: 5px solid green;
+  border-radius: 5px;
+}
+
+.may-tinh ul {
+  margin: 0 auto;
+}
+
+.may-tinh ul li {
+  list-style: none;
+  padding: 20px;
+  background-color: aqua;
+  margin-left: 30px;
+}

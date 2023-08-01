@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <style>
+    .bai-1 {
+      display: flex;
+      align-items: flex-end;
+    }
+
+    .on {
+      display: none;
+    }
+
+    button {
+      border-radius: 5px;
+      padding: 15px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: aqua;
+    }
+
+    .none {
+      display: none;
+    }
+
+    .block {
+      display: block;
+    }
+    .t-bao {
+      padding: 30px;
+      border: 1px solid black;
+      border-radius: 15px;
+    }
+    span {
+      display: block;
+    }
+
+    .bai-3 {
+      text-align: center;
+    }
+
+    .bai-4 {
+      text-align: center;
+      background-color: antiquewhite;
+      border: 2px solid yellow;
+      border-radius: 30px;
+      padding: 20px 40px;
+      display: inline-block;
+      margin: 0 auto;
+    }
+
+    .bg-text {
+      background-color: blue;
+      color: white;
+    }
+
+    select {
+      border: 1px solid red;
+      background: burlywood;
+      border-radius: 5px;
+      padding: 10px 20px;
+    }
+  </style>
+  <body>
+    <!-- bai-1 -->
+    <div class="bai-1">
+      <button id="bat">Bật đèn</button>
+      <div>
+        <img src="../pic_bulboff.gif" alt="" class="off" id="hinh-tat-den" />
+        <img src="../pic_bulbon.gif" alt="" class="on" id="hinh-bat-den" />
+      </div>
+      <button id="tat">Tắt đèn</button>
+    </div>
+    <!-- bai-1 -->
+    <!-- bai-2 -->
+
+    <div class="bai-2">
+      <input type="text" id="email" />
+      <input type="text" id="pass" />
+      <button id="disabled-pass">Disabled Pass</button>
+      <button id="disabled-email">Disabled Email</button>
+    </div>
+    <!-- bai-2 -->
+    <!-- bai-3 -->
+
+    <div class="bai-3" style="width: 25%; margin: 0 auto">
+      <h1>Đăng Nhập</h1>
+      <span>Tài Khoản: <input type="text" id="tai-khoan" /></span>
+      <span>Mật Khẩu: <input type="password" id="mat-khau" /></span>
+      <button id="nut-dang-nhap">Đăng nhập</button>
+      <div class="t-bao" id="phan-hoi"><h2 id="thong-bao" class=""></h2></div>
+    </div>
+    <!-- bai-3 -->
+    <div class="bai-4">
+      <h1>Tính tiền TIP</h1>
+      <span>$ <input type="number" placeholder="Tổng tiền" id="tien" /></span>
+      <h2>Bạn muốn TIP bao nhiêu?</h2>
+
+      <select id="tip">
+        <option value="" disabled selected>-- Chọn % TIP</option>
+        <option value="5" id="rat-te">5% - Rất tệ</option>
+        <option value="10" id="toi">10% - Tồi</option>
+        <option value="15" id="tam-on">15% - Tạm ổn</option>
+        <option value="20" id="tot">20% - Tốt</option>
+        <option value="20" id="tuyet-voi">30% - Tuyệt vời</option>
+      </select>
+
+      <h2>Bạn muốn Share bao nhiêu người?</h2>
+      <span
+        ><input type="number" placeholder="Số người" id="so-nguoi" />Người</span
+      >
+      <button
+        style="background-color: burlywood; margin-top: 20px"
+        id="nut-tinh"
+      >
+        Tính nào
+      </button>
+      <div class="hoa-don"><h2 id="hoa-don"></h2></div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

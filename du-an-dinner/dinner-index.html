@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dinner</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./dinner-style.css" />
+  </head>
+  <body>
+    <!-- Start Header -->
+
+    <header id="header">
+      <div class="header-boder">
+        <nav class="header-carousel">
+          <div class="header-logo"><a href="">Dinner</a></div>
+          <div class="header-brand">
+            <form action="" class="form-header black" id="header-search">
+              <input
+                type="search"
+                placeholder="Search"
+                aria-label="search
+                
+            "
+              />
+              <i class="fa fa-search"></i>
+            </form>
+            <div class="icon-brand">
+              <i class="fa fa-moon" id="moon"></i>
+              <i class="fa fa-sun d-none" id="sun"></i>
+            </div>
+            <button
+              class="header-bar"
+              data-toggle="modal"
+              data-target="#staticBackdrop"
+            >
+              <i class="fa fa-bars"></i>
+            </button>
+          </div>
+        </nav>
+        <div class="card-header">
+          <h5>The Only Thing We Love More Than Food Is You!</h5>
+          <p>
+            Some quick example text to build on the card title and make up the
+            <br />
+            bulk of the card's content.
+          </p>
+          <button class="bt-header">
+            <span>Read More</span> <i class="fa fa-angle-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="staticBackdrop"
+        data-backdrop="static"
+        data-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="staticBackdropLabel"
+        aria-hidden="true"
+      >
+        <div>
+          <div class="close-boder">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true" data-dismiss="modal"
+                ><i class="fa fa-times"></i
+              ></span>
+            </button>
+          </div>
+          <div class="modal-dialog">
+            <ul class="text-center">
+              <li>Home</li>
+              <li>About</li>
+              <li>Services</li>
+              <li>Blog</li>
+              <li>404</li>
+              <li>Landing Page</li>
+              <li>Contact</li>
+              <li>Shot Codes</li>
+              <li>Email</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+    <!-- Start Box CD -->
+    <div class="box-cd">
+      <i class="fa fa-angle-double-right"></i>
+      <i class="fa fa-backward"><span>Back</span></i>
+      <i class="fa fa-download"><span>Download</span></i>
+      <i class="fa fa-shopping-cart"><span>Buy</span></i>
+    </div>
+    <a href="#header">
+      <button class="box-up"><i class="fa fa-angle-double-up"></i></button>
+    </a>
+    <!-- End Box CD -->
+    <!-- Start Section -->
+    <section class="about-section">
+      <div class="about" id="about-section">
+        <div class="section-about">
+          <h6>About</h6>
+          <h3>We found our creative space that is open for you.</h3>
+        </div>
+        <div class="section-lorem">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quam
+            mollitia aspernatur asperiores minima ipsam ducimus consectetur
+            maiores deleniti sequi.
+          </p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad ab
+            dicta enim vitae veritatis animi.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- End Section -->
+    <!-- Start Vestibulum  -->
+    <div class="vestibulum">
+      <div class="vestibulum-img"></div>
+      <div class="vestibulum-book">
+        <h4>More than 3000 Restaurants</h4>
+        <h2>Book a table easly at the best price</h2>
+        <p>
+          Vestibulum ante ipsum primis in faucibus orci luctus turpis sodales
+          quis. Integer sit amet mattis quam.Vivamus a ligula quam tesque et
+          libero ut justo ultrices in.
+        </p>
+        <div class="book-card">
+          <div class="card-daels">
+            <i class="fa fa-thumbs-up"></i>
+            <h5>Best Daels</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="card-food">
+            <i class="fa fa-utensils"></i>
+            <h5>Best Food</h5>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Vestibulum  -->
+    <!-- start Categories -->
+    <div class="categories">
+      <div class="categories-text">
+        <h3>What's New</h3>
+        <h1>Popular Categories</h1>
+      </div>
+      <div class="categories-grid">
+        <div class="categories-row row-img-1">
+          <div class="categories-content">
+            <h5>Vegetarian</h5>
+            <p>$350</p>
+          </div>
+        </div>
+        <div class="categories-row row-img-2">
+          <div class="categories-content">
+            <h5>Drinks</h5>
+            <p>$250</p>
+          </div>
+        </div>
+        <div class="categories-row row-img-3">
+          <div class="categories-content">
+            <h5>Lunch</h5>
+            <p>$450</p>
+          </div>
+        </div>
+        <div class="categories-row row-img-4">
+          <div class="categories-content">
+            <h5>Bakery</h5>
+            <p>$650</p>
+          </div>
+        </div>
+        <div class="categories-row row-img-5">
+          <div class="categories-content">
+            <h5>Desserts</h5>
+            <p>$250</p>
+          </div>
+        </div>
+        <div class="categories-row row-img-6">
+          <div class="categories-content">
+            <h5>Pizza</h5>
+            <p>$250</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Categories -->
+
+    <!-- Start Menu card -->
+    <div class="menu-card">
+      <div class="menu-card-row">
+        <div class="header-row">
+          <i class="fa fa-users"></i>
+          <div class="header-content-row">
+            <p>01</p>
+            <h4>Soup</h4>
+          </div>
+        </div>
+        <div class="content-row">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quis
+          corporis sequi incidunt.
+        </div>
+      </div>
+      <div class="menu-card-row">
+        <div class="header-row">
+          <i class="fa fa-shield-alt"></i>
+          <div class="header-content-row">
+            <p>02</p>
+            <h4>Drinks</h4>
+          </div>
+        </div>
+        <div class="content-row">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quis
+          corporis sequi incidunt.
+        </div>
+      </div>
+      <div class="menu-card-row">
+        <div class="header-row">
+          <i class="fa fa-thermometer-three-quarters"></i>
+          <div class="header-content-row">
+            <p>03</p>
+            <h4>Pizza</h4>
+          </div>
+        </div>
+        <div class="content-row">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quis
+          corporis sequi incidunt.
+        </div>
+      </div>
+      <div class="menu-card-row">
+        <div class="header-row">
+          <i class="fa fa-american-sign-language-interpreting"></i>
+          <div class="header-content-row">
+            <p>04</p>
+            <h4>Breakfast</h4>
+          </div>
+        </div>
+        <div class="content-row">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quis
+          corporis sequi incidunt.
+        </div>
+      </div>
+      <div class="menu-card-row">
+        <div class="header-row">
+          <i class="fa fa-paint-brush"></i>
+          <div class="header-content-row">
+            <p>05</p>
+            <h4>Lunch</h4>
+          </div>
+        </div>
+        <div class="content-row">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quis
+          corporis sequi incidunt.
+        </div>
+      </div>
+      <div class="menu-card-row">
+        <div class="header-row">
+          <i class="fa fa-hockey-puck"></i>
+          <div class="header-content-row">
+            <p>06</p>
+            <h4>Dinner</h4>
+          </div>
+        </div>
+        <div class="content-row">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quis
+          corporis sequi incidunt.
+        </div>
+      </div>
+    </div>
+    <!-- End Menu card -->
+    <!-- Start Deliciousness  -->
+    <div class="deliciousness">
+      <h1>Deliciousness jumping into the mouth.</h1>
+      <div class="option-deliciousness">
+        <button class="read-more"></button>
+        <button class="contact"></button>
+      </div>
+    </div>
+    <!-- End Deliciousness  -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./dinner-main.js"></script>
+  </body>
+</html>
