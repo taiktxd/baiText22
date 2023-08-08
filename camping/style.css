@@ -1,0 +1,272 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Header  */
+.header {
+  background-color: #f8e1db;
+  padding: 20px 40px;
+}
+
+.header .header-logo {
+}
+
+.header-logo a {
+  color: white;
+  padding: 15px 18px;
+  font-size: 20px;
+  background-color: #e76f51;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.header .header-nav {
+  list-style: none;
+  display: flex;
+}
+
+.header-nav li {
+  margin-right: 50px;
+  font-size: 18px;
+}
+
+.header .header-ground {
+  font-size: 20px;
+  padding: 30px;
+}
+
+.header-ground i:first-of-type {
+  color: #e76f51;
+  display: none;
+  cursor: pointer;
+}
+
+.header-ground i:last-of-type {
+  cursor: pointer;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-none {
+  display: none;
+}
+
+.turn-on {
+  color: black;
+  background-color: #f8e1db;
+}
+
+.turn-off {
+  color: white;
+  background-color: #8c8c8c;
+}
+
+/* Header  */
+/* Carousel Section */
+
+.carousel-section {
+  background-image: url(./Image/BG.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+}
+
+/* Carousel Section */
+/* Activites Section */
+.activites-section {
+  background-color: #faf4f2;
+  padding: 50px 0;
+}
+
+.activites-section .activites-explore {
+  text-align: center;
+}
+
+.activites-explore .explore-logo {
+  background-image: url(./Image/Group\ 313.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 90px;
+  height: 90px;
+  margin: 0 auto;
+}
+
+.activites-explore .explore-content {
+  color: #8d8d8d;
+}
+
+.activites-section .activites-trickle {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0;
+}
+
+.activites-trickle .card-item {
+  background-color: white;
+  border-radius: 20px;
+  width: 23%;
+  padding: 40px 20px;
+}
+
+.card-item .item-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 260px;
+  height: 180px;
+  border-radius: 20px;
+  margin: 0 auto;
+
+  position: relative;
+}
+
+.card-1 {
+  background-image: url(./Image/product1.png);
+}
+
+.card-2 {
+  background-image: url(./Image/product4.png);
+}
+
+.card-3 {
+  background-image: url(./Image/product5.png);
+}
+
+.card-4 {
+  background-image: url(./Image/product1.png);
+}
+
+.item-img .item-icon {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 19px;
+  background-color: white;
+  color: #e76f51;
+  border-radius: 10px;
+}
+
+.item-icon i {
+  padding: 15px;
+}
+
+.card-item .item-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.item-content h3 {
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.item-content span {
+  color: #8d8d8d;
+}
+
+.item-content button {
+  width: 80%;
+  height: 40px;
+  margin: 0 auto;
+  border-radius: 20px;
+  margin-top: 20px;
+  border: none;
+}
+
+.item-content button span {
+  color: #979797;
+}
+
+/* Activites Section */
+/* Camping Touch */
+.camping-touch {
+  background-color: #f8e1db;
+  display: flex;
+  justify-content: space-between;
+  background-image: url(./Image/mask.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.camping-touch .camping {
+  background-image: url(./Image/homeicon.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+}
+
+.camping-touch .touch {
+  color: #8c8c8c;
+  padding: 50px;
+}
+
+.touch h1 {
+  padding-bottom: 20px;
+}
+
+.touch span {
+}
+
+.touch .touch-info {
+  display: flex;
+}
+
+.touch-info .touch-download {
+}
+
+.touch-info h3 {
+  padding: 20px 0;
+}
+
+.touch-download .touch-app {
+  display: flex;
+  justify-content: space-around;
+}
+
+.touch-app .app-store {
+  background-image: url(./Image/download-on-the-app-store-apple-1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30px;
+  width: 100px;
+}
+
+.touch-app .google-play {
+  background-image: url(./Image/google-play-badge-1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30px;
+  width: 100px;
+}
+
+.touch-info .touch-social {
+}
+
+.touch-social .social-item {
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-item li {
+  list-style: none;
+  color: #e76f51;
+  font-size: 20px;
+  padding-right: 20px;
+}
+
+/* Camping Touch */

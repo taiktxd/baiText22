@@ -54,6 +54,7 @@ elementNutDangNhap.addEventListener("click", function dangNhap(event) {
     elementThongBao.innerHTML =
       "Chào Mừng " +
       elementTaiKhoan.value +
+      "" +
       "Mật khẩu của bạn là" +
       elementMatKhau.value;
   }
