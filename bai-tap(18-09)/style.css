@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* block none */
+
+.dBlock {
+  display: block;
+}
+
+.dNone {
+  display: none;
+}
+
+/* block none */
+
+.baiTap {
+  padding: 30px;
+  background-image: url(https://previews.123rf.com/images/carloscastilla/carloscastilla1904/carloscastilla190400067/121376563-wallpaper-of-binary-code-concept-pattern-and-big-data-structure-net-and-source-code.jpg);
+  color: rgb(247, 203, 203);
+  margin: 50px auto;
+  display: flex;
+}
+
+.baiTap .listBaiTap {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.listBaiTap .bai {
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 8px;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.listBaiTap .bai {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.bai span {
+  margin-left: 5px;
+}
+
+.listBaiTap .bai .closeBook {
+  color: yellowgreen;
+}
+
+.listBaiTap .bai .openBook {
+  display: none;
+}
+
+/* QA */
+
+.QABaiTap {
+}
+
+.baiSo {
+  padding: 18px;
+}
+
+.tieuDe {
+}
+
+.tieuDe i {
+  font-size: 24px;
+}
+
+.tieuDe h1 {
+  display: inline;
+}
+
+.goiY {
+  background: rgba(255, 255, 255, 0.425);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin: 24px 0;
+}
+
+.cach1 {
+  cursor: pointer;
+}
+
+.cach1 img {
+  display: none;
+}
+
+.nhapVao {
+}
+
+.nhapVao input {
+  background: rgba(255, 255, 255, 0.425);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
