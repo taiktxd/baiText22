@@ -18,16 +18,19 @@
 
 .baiTap {
   padding: 30px;
-  background-image: url(https://previews.123rf.com/images/carloscastilla/carloscastilla1904/carloscastilla190400067/121376563-wallpaper-of-binary-code-concept-pattern-and-big-data-structure-net-and-source-code.jpg);
-  color: rgb(247, 203, 203);
+  background-color: aliceblue;
+  /* background-image: url(https://previews.123rf.com/images/carloscastilla/carloscastilla1904/carloscastilla190400067/121376563-wallpaper-of-binary-code-concept-pattern-and-big-data-structure-net-and-source-code.jpg); */
+  color: black;
   margin: 50px auto;
   display: flex;
+  width: 80%;
 }
 
 .baiTap .listBaiTap {
   display: flex;
   flex-direction: column;
   list-style: none;
+  width: 20%;
 }
 
 .listBaiTap .bai {
@@ -58,6 +61,7 @@
 /* QA */
 
 .QABaiTap {
+  max-width: 80%;
 }
 
 .baiSo {
@@ -92,6 +96,8 @@
 }
 
 .nhapVao {
+  display: flex;
+  justify-content: space-between;
 }
 
 .nhapVao input {
@@ -99,4 +105,22 @@
   padding: 10px;
   border: none;
   border-radius: 5px;
+}
+
+.tinh {
+  background: rgba(139, 152, 252, 0.425);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  display: inline-block;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.ketQua {
+  display: block;
+  border: none;
+  padding: 18px;
+  border-radius: 5px;
+  background: rgba(200, 201, 209, 0.425);
 }
